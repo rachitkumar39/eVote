@@ -1,0 +1,99 @@
+.itemsofnav{
+    margin-left:13px;
+    margin-right:13px;
+}
+.itemsofnav a{
+    font-weight:500;
+}
+.nav-link {
+    color: rgb(217 238 243 / 97%);
+}
+.nav-link:hover{
+    color:white;
+}
+.account-page{
+	height:536px;
+	padding: 50px 0;
+	background: radial-gradient(#fff,#d6f2ff);
+}
+.form-container{
+	background: #fff;
+	width: 300px;
+	height: 425px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: 0px 400px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.form-container span{
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+.form-btn{
+	display: inline-block;
+}
+.form-container form{
+	max-width: 300px;
+	padding: 0 20px;
+	top:70px;
+	position: absolute;
+	transition: transform 1s; 
+}
+form input{
+	width: 90%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+form .btn{
+	width: 100%
+}
+form .btn:focus{
+	outline: none;
+}
+#RegForm{
+	left: 0;
+}
+form a{
+	font-size: 12px;
+}
+#Indicator{
+	width: 100px;
+	border: none;
+	background: #ff523b;
+	height: 3px;
+	margin-top: 8px;
+	transform: translateX(100px);
+	transition: transform 1s;
+}
+.btn{
+	background: linear-gradient(45deg, #525cce, #00d4b473);
+	border-radius:9px;
+	font-weight: 600;
+}
+.col-2{
+	width:32%;
+}
+.col-2 img{
+	width: 300px;
+    margin: 100px 30px;
+}
+.logo:hover {
+    animation-name: spinning;
+    background-repeat:no-repeat;
+    animation-duration: 10.2s;
+    animation-delay:0s;
+    position:relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .footer-nav{
+	background:rgb(33,37,41);
+    height: 65px;
+  }

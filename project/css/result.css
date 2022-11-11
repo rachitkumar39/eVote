@@ -1,0 +1,40 @@
+.bottom{
+    background:rgb(8 8 8 / 88%);
+    padding:25px;
+}
+.sec{
+	background: radial-gradient(#fff,#d6f2ff);
+}
+.sec1{
+    display:flex;
+}
+.r_sec{
+    margin:85px 0px 0px 100px;
+}
+.chart_div{
+    margin-left:200px;
+}
+.result {
+    text-align: center;
+    padding:20px 10px 0px 0px;
+    width:1000px;
+}
+.border_bottom{
+    border-bottom: 5px solid #8199A9;
+}
+.result h3{
+    padding:0px 0px 10px 0px;
+    font-weight:100px;
+    animation-name:run;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    position:relative;
+}
+@keyframes run{
+    0% {color:rgb(70, 104, 104);left:100px;top:0px;}
+    25% {color:blue;left:200px;top:0px}
+    50% {color:black;left:300px;top:0px;}
+    75% {color:green;left:200px;top:0px;}
+    100% {color:red;left:100px;top:0px;}
+}

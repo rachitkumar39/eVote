@@ -1,0 +1,210 @@
+/*fist part*/
+.body{
+    width:1000px;
+}
+.letsgetintouch{
+    width:308px;
+    background-color: limegreen;
+    margin-left: 30px;
+    padding:40px;
+    color:white;
+}
+.letsgetintouch1:hover{
+    color:yellow;
+}
+.letsgetintouch1{
+    margin-left:9px;
+}
+.letsgetintouch1 h3{
+    font-size:xxx-large;
+}
+.letsgetintouch1 p{
+    font-size: larger;
+    margin-top: 10px;
+}
+.add_icon:before{
+    content: "\f3c5";
+}
+.fa{
+    border: 3px solid;
+    padding: 17px 20px;
+    border-radius: 74px;
+    font-weight: 900
+    
+}
+.add_of_contactus{
+    display:flex;
+    margin: 38px -14px;
+}
+.add_of_contactus:hover{
+    color:darkorange;
+}
+.address_add_of_contactus{
+    margin: 3px 24px;
+}
+.icon_of_phoneno_of_contactus:before{
+    content: "\f879";
+}
+.fas{
+    border:3px solid;
+    padding:17px;
+    border-radius:74px
+}
+.phoneno_of_contactus{
+    display:flex;
+}
+.phoneno_of_contactus:hover{
+    color:darkred;
+}
+.block_icon_of_phoneno_of_contactus{
+    margin-left: -15px;
+}
+.text_of_phoneno_of_contactus{
+    margin:10px 26px;
+}
+.text_of_phoneno_of_contactus a:hover{
+    color:darkred;
+}
+.icon_of_email_of_contactus:before{
+    content: "\f658";
+}
+.block_icon_of_email_of_contactus{
+    margin: 36px -15px;
+}
+.text_of_email_of_contactus{
+    margin: 30px 37px;
+}
+.email_of_contactus{
+    display: flex;
+}
+.email_of_contactus:hover{
+    color: darkmagenta;
+}
+.contactus{
+    display:flex;
+    box-shadow: 0px 21px 41px -13px rgb(0 0 0 / 18%);
+}
+.thirdsec{
+    margin-left: 60px;
+    width: 1200px;
+    margin-top: 110px;
+    padding: 10px;
+}
+.thirdsec:hover{
+    box-shadow:0px 3px 4px 3px rgb(0 0 0 / 18%);
+    padding:20px;
+}
+/*second part*/
+.border-design{
+    border: none;
+    border-bottom:1px solid;
+    height:30px;  
+    width:375px;
+}
+.border-design1{
+    border: none;
+    border-bottom:1px solid;
+    width:215px;
+    height:30px;
+}
+.name_of_contactform{
+    margin-top: 15px;
+    
+}
+.form_of_contactus{
+    margin-left:50px;
+    margin-top:35px;
+}
+.firstname{
+    margin-right: 70px;
+}
+.text_of_get_in_touch{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.email_of_contactform{
+    margin-top:40px;
+}
+.subject_of_contactform{
+    margin-top:40px;
+}
+.message_of_contactform{
+    margin-top:40px;
+    display:flex;
+    flex-direction:row;
+}
+.message_of_contactform label{
+    margin-top:25px;
+}
+.submit_of_contactus{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+.border-design_contactus{
+    width: 500px;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    width:70px;
+    height:70px;
+}
+.logo img{
+    width:70%;
+    /* padding: 10px; */
+}
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+ .logo:hover {
+    animation-name: spinning;
+    background-repeat:no-repeat;
+    animation-duration: 0.2s;
+    animation-delay:0s;
+    position:relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+.sticky1{
+    position:fixed;
+    z-index:1;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    margin-left:-8px;
+}
+.navbar{
+     display: flex;
+     height:60px;
+}
+.nav-list{
+    width:50%;
+    display:flex;
+    align-items:center;
+    padding:5px 13px;
+}
+.nav-list li{
+    list-style:none;
+    padding: 20px 25px;
+}
+.nav-list li:hover{
+    background-color:grey;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.nav-list li a:hover{
+    color:orange;
+}
+.background{
+    background:rgb(22, 21, 21);
+    background-size:cover;
+    background-blend-mode: darken;
+}
